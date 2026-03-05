@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldie Merveille Batoula | Portfolio BTS SIO SLAM</title>
+    <meta name="description"
+        content="Portfolio d'Aldie Merveille Batoula - Étudiante BTS SIO SLAM. Découvrez mes projets en PHP, MySQL, HTML et mes compétences en développement web et back-end.">
+    <meta name="keywords"
+        content="Portfolio, Aldie Batoula, BTS SIO SLAM, Développeuse Web, PHP, MySQL, Web Development, IF2I">
+    <meta name="author" content="Aldie Merveille Batoula">
+    <meta property="og:title" content="Aldie Merveille Batoula | Portfolio BTS SIO SLAM">
+    <meta property="og:description"
+        content="Découvrez mes projets et mes compétences en développement web orienté métier (PHP, SQL, MVC).">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Boxicons for modern icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Background glowing orbs -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <!-- Navigation -->
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Aldie<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#education" class="nav-link">Parcours</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-spacing">
+            <div class="container hero-content">
+                <div class="hero-text reveal-left">
+                    <div class="status-badge">
+                        <span class="pulse-dot"></span>
+                        Disponible — Alternance / Stage
+                    </div>
+                    <h1>BTS SIO — Option <span class="gradient-text">SLAM</span></h1>
+                    <h2 class="subtitle">IF2I</h2>
+                    <p class="description">
+                        Étudiante passionnée par le développement web et applicatif. J’aime transformer un besoin métier
+                        en solution fiable, documentée et sécurisée.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">Voir mes projets <i
+                                class='bx bx-right-arrow-alt'></i></a>
+                        <a href="#contact" class="btn btn-outline">Me contacter</a>
+                    </div>
+                    <div class="hero-socials">
+                        <p class="social-location"><i class='bx bx-map'></i> France</p>
+                        <div class="social-links">
+                            <a href="mailto:batoulaaldie@gmail.com" aria-label="Email"><i
+                                    class='bx bx-envelope'></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                            <a href="#" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image reveal-right">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=800&auto=format&fit=crop"
+                            alt="Portrait illustratif d'Aldie Merveille Batoula" width="800" height="800"
+                            fetchpriority="high">
+                        <div class="card-float tag-1" aria-hidden="true">
+                            <i class='bx bx-code-alt'></i> Développeuse Web
+                        </div>
+                        <div class="card-float tag-2" aria-hidden="true">
+                            <i class='bx bx-data'></i> Base de données
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-spacing">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">À <span>propos</span></h2>
+                    <p class="section-subtitle">Qui je suis et comment je travaille</p>
+                </div>
+                <div class="about-grid">
+                    <div class="glass-card reveal-up" style="transition-delay: 100ms;">
+                        <div class="card-icon"><i class='bx bx-user'></i></div>
+                        <h3>Qui je suis</h3>
+                        <p>Étudiante passionnée par la conception et le développement d’applications web orientées
+                            métier. Documentation, sécurité et qualité logicielle sont au cœur de ma démarche.</p>
+                    </div>
+                    <div class="glass-card reveal-up" style="transition-delay: 200ms;">
+                        <div class="card-icon"><i class='bx bx-target-lock'></i></div>
+                        <h3>Objectifs</h3>
+                        <ul>
+                            <li><i class='bx bx-check-circle'></i> Valider le BTS avec mention</li>
+                            <li><i class='bx bx-check-circle'></i> Poursuivre en alternance en développement</li>
+                            <li><i class='bx bx-check-circle'></i> Renforcer mes compétences back‑end</li>
+                        </ul>
+                    </div>
+                    <div class="glass-card reveal-up" style="transition-delay: 300ms;">
+                        <div class="card-icon"><i class='bx bx-briefcase-alt-2'></i></div>
+                        <h3>Méthodes de travail</h3>
+                        <ul>
+                            <li><i class='bx bx-check-circle'></i> Découpage des tâches, gestion Agile</li>
+                            <li><i class='bx bx-check-circle'></i> Revue de code & tests</li>
+                            <li><i class='bx bx-check-circle'></i> Automatisation CI de base</li>
+                            <li><i class='bx bx-check-circle'></i> Veille technologique régulière</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-spacing">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">Mes <span>Compétences</span></h2>
+                    <p class="section-subtitle">Les technologies que je maîtrise</p>
+                </div>
+
+                <div class="skills-container reveal-up">
+                    <div class="skill-category">
+                        <h3><i class='bx bx-code-curly'></i> Langages & Front-end</h3>
+                        <div class="tags">
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">HTML5 / CSS3</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class='bx bx-server'></i> Back-end & BDD</h3>
+                        <div class="tags">
+                            <span class="skill-tag">Symfony</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">API REST</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class='bx bx-wrench'></i> Outils & Méthodes</h3>
+                        <div class="tags">
+                            <span class="skill-tag">Git / GitHub</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">UML / Merise</span>
+                            <span class="skill-tag">Sécurité</span>
+                            <span class="skill-tag">Tests</span>
+                            <span class="skill-tag">Agile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-spacing">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">Mes <span>Projets</span></h2>
+                    <p class="section-subtitle">Quelques réalisations récentes</p>
+                </div>
+
+                <div class="project-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card glass-card reveal-up" style="transition-delay: 100ms;">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop"
+                                alt="Aperçu du projet QCM Interactif" loading="lazy" width="800" height="500">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" aria-label="Voir le projet QCM Interactif"><i
+                                        class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>QCM Interactif</h3>
+                            <p class="project-desc">Application web de quiz dynamique avec calcul de score.</p>
+                            <div class="tech-stack">
+                                <span><i class='bx bxl-php'></i> PHP</span>
+                                <span><i class='bx bxl-html5'></i> HTML/CSS</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">Quiz</span>
+                                <span class="tag">Interactif</span>
+                                <span class="tag">Score</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card glass-card reveal-up" style="transition-delay: 200ms;">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1611606063065-ee7946f0787a?q=80&w=800&auto=format&fit=crop"
+                                alt="Aperçu du projet Chat App Temps Réel" loading="lazy" width="800" height="500">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" aria-label="Voir le projet Chat App Temps Réel"><i
+                                        class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Chat App Temps Réel</h3>
+                            <p class="project-desc">Application de messagerie instantanée avec salons et messages
+                                privés.</p>
+                            <div class="tech-stack">
+                                <span><i class='bx bxl-php'></i> PHP</span>
+                                <span><i class='bx bxs-data'></i> MySQL</span>
+                                <span><i class='bx bxl-html5'></i> HTML/CSS</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">Temps Réel</span>
+                                <span class="tag">Chat</span>
+                                <span class="tag">Salons</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card glass-card reveal-up" style="transition-delay: 300ms;">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=800&auto=format&fit=crop"
+                                alt="Aperçu du projet Clone Leboncoin" loading="lazy" width="800" height="500">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" aria-label="Voir le projet Clone Leboncoin"><i
+                                        class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Clone Leboncoin</h3>
+                            <p class="project-desc">Plateforme de petites annonces avec gestion d'utilisateurs et
+                                messagerie interne.</p>
+                            <div class="tech-stack">
+                                <span><i class='bx bxl-php'></i> PHP</span>
+                                <span><i class='bx bxs-data'></i> MySQL</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">Annonces</span>
+                                <span class="tag">Utilisateurs</span>
+                                <span class="tag">Messagerie</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section id="education" class="timeline-section section-spacing">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">Mon <span>Parcours</span></h2>
+                    <p class="section-subtitle">Formation et expérience</p>
+                </div>
+
+                <div class="timeline reveal-up">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">2024 — 2025</span>
+                            <h3>BTS SIO – Option SLAM</h3>
+                            <h4>IF2I</h4>
+                            <p>Formation en Développement Web & Applicatif. Acquisition des bases algorithmiques,
+                                conception de bases de données, sécurité et réalisation de projets complets.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <span class="timeline-date">2024 — 2025</span>
+                            <h3>Projets académiques</h3>
+                            <h4>IF2I</h4>
+                            <p>Réalisation de plusieurs projets concrets : Un QCM interactif, une messagerie en temps
+                                réel (Chat App) et le développement d'un clone de la plateforme Leboncoin.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certifications mt-12 reveal-up">
+                    <h3 class="mb-6 h3-title"><i class='bx bx-certification'></i> Certifications</h3>
+                    <div class="table-responsive glass-card no-padding">
+                        <table class="modern-table">
+                            <thead>
+                                <tr>
+                                    <th>Certification</th>
+                                    <th>Organisme</th>
+                                    <th>Statut</th>
+                                    <th>Résumé</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Cisco – Intro to Cybersecurity</td>
+                                    <td>Cisco NetAcad</td>
+                                    <td><span class="badge badge-success">Obtenue</span></td>
+                                    <td>Concepts de cybersécurité, vulnérabilités et mesures de défense</td>
+                                </tr>
+                                <tr>
+                                    <td>SecNumacadémie</td>
+                                    <td>ANSSI</td>
+                                    <td><span class="badge badge-success">Obtenue</span></td>
+                                    <td>Panorama SSI, authentification, sécurité internet et nomadisme (100%)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="certificates-gallery mt-12 reveal-up">
+                        <h4 class="mb-6 h4-title"
+                            style="font-size: 1.4rem; color: var(--text-muted); text-align: center;"><i
+                                class='bx bx-images'></i> Aperçu des certificats</h4>
+                        <div class="cert-grid">
+                            <div class="cert-card glass-card">
+                                <img src="assets/cisco.png" alt="Certificat Cisco Introduction to Cybersecurity"
+                                    loading="lazy">
+                                <p>Cisco - Intro to Cybersecurity</p>
+                            </div>
+                            <div class="cert-card glass-card">
+                                <img src="assets/anssi.png" alt="Attestation SecNumacadémie ANSSI" loading="lazy">
+                                <p>ANSSI - SecNumacadémie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-spacing">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title">Me <span>Contacter</span></h2>
+                    <p class="section-subtitle">Discutons de votre prochain projet</p>
+                </div>
+
+                <div class="contact-wrapper glass-card reveal-up">
+                    <div class="contact-info">
+                        <h3>Aldie Merveille Batoula</h3>
+                        <p class="role">Étudiante en BTS SIO – Option SLAM</p>
+                        <p class="school"><i class='bx bxs-school'></i> IF2I</p>
+
+                        <div class="contact-list">
+                            <a href="mailto:batoulaaldie@gmail.com" class="contact-item">
+                                <div class="icon-circle"><i class='bx bx-envelope'></i></div>
+                                <span>batoulaaldie@gmail.com</span>
+                            </a>
+                            <a href="#" class="contact-item">
+                                <div class="icon-circle"><i class='bx bxl-linkedin'></i></div>
+                                <span>Aldie Merveille Batoula</span>
+                            </a>
+                            <div class="contact-item">
+                                <div class="icon-circle"><i class='bx bx-map'></i></div>
+                                <span>France</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form id="contactForm" class="contact-form"
+                            action="https://formsubmit.co/batoulaaldie@gmail.com" method="POST">
+                            <!-- Configurations FormSubmit -->
+                            <input type="hidden" name="_subject" value="Nouveau message de votre portfolio !">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_next" value="https://ton-domaine.com/#contact">
+                            <!-- À remplacer par l'URL finale si besoin -->
+
+                            <div class="form-group">
+                                <div class="input-container">
+                                    <input type="text" id="name" name="name" required placeholder=" " />
+                                    <label for="name">Votre nom</label>
+                                </div>
+                                <div class="input-container">
+                                    <input type="email" id="email" name="email" required placeholder=" " />
+                                    <label for="email">Votre email</label>
+                                </div>
+                            </div>
+                            <div class="input-container full-width">
+                                <input type="text" id="subject" name="_subject_custom" required placeholder=" " />
+                                <label for="subject">Sujet</label>
+                            </div>
+                            <div class="input-container full-width">
+                                <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                                <label for="message">Votre message</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit-btn">
+                                Envoyer <i class='bx bx-send'></i>
+                            </button>
+                            <p class="form-note"><i class='bx bx-check-shield'></i> Vos informations sont envoyées de
+                                manière sécurisée.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">Aldie.</div>
+            <p class="copyright">© 2026 Aldie Merveille Batoula. Tous droits réservés.</p>
+            <div class="footer-socials">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
